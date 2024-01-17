@@ -1,0 +1,38 @@
+@media only screen and (min-width:200px) and (max-width:567px){
+    .header-1{
+        display: none !important;
+    }
+
+    .header-2{
+        height: 160px !important;
+    }
+
+    .header-2 img{
+        position: absolute;
+        top: 75px !important;
+        left: -40px !important;
+    }
+
+    .header-2 button{
+        background-color: white;
+        position: absolute;
+        right: 0px !important;
+        top: 0px !important; 
+    }
+
+    .offcanvas-custom{
+        display: block !important;
+    }
+
+    .section-custom-3 .span-custom-3 i{
+        position: absolute;
+        color: rgb(198, 190, 190);
+        background-color: white;
+        left: 263px;
+        top: 97px;
+    }
+
+    .section-custom-4 span .btn-2{
+        display: none !important;
+    }
+}

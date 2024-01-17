@@ -1,0 +1,637 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-custom{
+    position: fixed;
+    z-index: 9999;
+    background-color: #f6f2f2;
+    top: 0;
+}
+
+.icon-custom1{
+    color: green;
+    border-radius: 50%;
+    font-size: large;
+}
+
+.icon-custom1 i{
+    border: 1.5px rgb(164, 159, 159) solid;
+    padding: 6px;
+    border-radius: 50%;
+    rotate: -45deg;
+}
+
+.mail-custom a{
+    color: rgb(98, 98, 96);
+}
+
+.icon-custom2{
+    color: green;
+    border-radius: 50%;
+    font-size: large;
+}
+
+.icon-custom2 i{
+    border: 1.5px rgb(164, 159, 159) solid;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.phone-custom a{
+    color: black;
+}
+
+.button-custom button{
+    color: white;
+    background-color: rgb(231, 97, 9);
+    border: none;
+}
+
+.button-custom button:hover{
+    color: green;
+    border: 1px solid green;
+    background-color: white;
+}
+
+
+.nav-custom{
+    background: rgb(235, 216, 96);
+}
+
+.logo-custom{
+    position: absolute;
+    top: -80px;
+}
+
+.navbar-custom a{
+    color: white;
+}
+
+.navbar-custom a:hover{
+    color: green;
+}
+
+.navbar-toggler{
+    background-color: aliceblue;
+    
+}
+
+.dropdown-custom1{
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    display: none;
+}
+
+.dropdown-custom1 a{
+    color: black;
+}
+
+li:nth-child(5):hover .dropdown-custom1{
+    display: block;
+}
+
+.dropdown-custom1 a:hover{
+    color: white;
+    background-color: rgb(231, 97, 9);
+}
+
+.dropdown-custom2{
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    display: none;
+}
+
+.dropdown-custom2 a{
+    color: black;
+}
+
+li:nth-child(6):hover .dropdown-custom2{
+    display: block;
+}
+
+.dropdown-custom2 a:hover{
+    color: white;
+    background-color: rgb(231, 97, 9);
+}
+
+.offcanvas-custom{
+    display: none !important;
+}
+
+.offcanvas ul{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.header-3{
+    background-color: green;
+}
+
+.section-custom-1{
+    cursor: all-scroll;
+    margin-top: 181px;
+}
+
+.section-custom-1 button span{
+    display: none;
+}
+
+.image-fluid1{
+    background: url("../Images/farmer_group.webp") no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.image-fluid2{
+    background: url("../Images/new1.webp") no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.image-fluid3{
+    background: url("../Images/spices.webp") no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.image-fluid2 .row{
+    padding-top: 160px;
+}
+
+
+.image-fluid2 .span-custom1{
+    background-color: rgb(231, 97, 9);
+    color: white;
+    font-weight: 300;
+}
+
+.image-fluid2 .span-custom2{
+    background-color: rgb(36, 35, 41);
+    color: white;
+    font-weight: 900;
+}   
+
+.image-fluid2 button{
+    background-color: rgb(231, 97, 9);
+    color: white;
+}
+
+.image-fluid2 button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green !important;
+}
+
+.image-fluid3 .row{
+    padding-top: 160px;
+}
+
+
+.image-fluid3 .span-custom1{
+    background-color: rgb(231, 97, 9);
+    color: white;
+    font-weight: 300;
+}
+
+.image-fluid3 .span-custom2{
+    background-color: rgb(36, 35, 41);
+    color: white;
+    font-weight: 900;
+}
+
+.image-fluid3 button{
+    background-color: rgb(231, 97, 9);
+    color: white;
+}
+
+.image-fluid3 button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green !important;
+}
+
+.image-custom1{
+    background: url("../Images/left-box-bg.webp") no-repeat;
+    background-size: cover;  
+}
+
+.image-custom1 .row{
+    background-color: green !important;
+    opacity: 0.8;
+}
+
+.image-custom1 h3{
+    color: white;
+}
+
+.image-custom1 p{
+    color: white;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.image-custom2{
+    background: url("../Images/center-box-bg.webp") no-repeat;
+    background-size: cover;
+}
+
+.image-custom2 .row{
+    background-color: rgb(10, 10, 40) !important;
+    opacity: 0.8;
+}
+
+.image-custom2 h3{
+    color: white;
+}
+
+.image-custom2 p{
+    color: white;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+
+.image-custom3{
+    background: url("../Images/right-box-bg.webp") no-repeat;
+    background-size: cover;
+}
+
+.image-custom3 .row{
+    background-color: rgb(24, 166, 43) !important;
+    opacity: 0.8;
+}
+
+.image-custom3 h3{
+    color: white;
+}
+
+.image-custom3 p{
+    color: white;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.section-custom-3 h5{
+    color: green;
+}
+
+.section-custom-3 .span-custom-1{
+    color: green;
+}
+
+.section-custom-3 .span-custom-2{
+    background-color: rgb(198, 190, 190);
+    width: 120px;
+    padding-top: 2px;
+    margin: auto;
+}
+
+.section-custom-3 .row{
+    position: relative;
+}
+
+.section-custom-3 .span-custom-3 i{
+    position: absolute;
+    color: rgb(198, 190, 190);
+    background-color: white;
+    left: 650px;
+    top: 103px;
+}
+
+.row-custom-2 p{
+    color: rgb(164, 160, 160);
+}
+
+.row-custom-2 p span{
+    color: rgb(132, 129, 129);
+    font-weight: 700;
+}
+
+.row-custom-2 .span-custom-1{
+    text-align: center;
+}
+
+.row-custom-2 .span-custom-1 button{
+    background-color: black;
+    color: white;
+}
+
+.row-custom-2 .span-custom-1 button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green !important;
+}
+
+.section-custom-4{
+    background-color: #f6f2f2;
+}
+
+.section-custom-4 .product-custom{
+    background-color: rgb(235, 216, 96);
+}
+
+.section-custom-4 h4{
+    color: green;
+}
+
+.section-custom-4 p{
+    color: rgb(91, 86, 86);
+    font-size: 16px;
+}
+
+.section-custom-4 button{
+    background: none;
+    color: white;
+}
+
+.section-custom-4 span .btn-1{
+    border: 1px solid green;
+    background-color: rgb(231, 97, 9);;
+
+}
+
+.section-custom-4 span .btn-2{
+    border: 1px solid green;
+    background-color: rgb(231, 97, 9);
+
+}
+
+.item-img-1{
+    position: relative;
+}
+
+.item-img-1 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgba(24, 185, 6, 0.7);
+    overflow: hidden;
+}
+.item-img-1:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+.item-img-1 .overlay .btn-1{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.item-img-1 .overlay .btn-2{
+    width: 100%;
+    color: white;
+    background-color: rgb(59, 5, 5);
+    position: absolute;
+    bottom: 0;
+}
+
+.item-img-1 .btn-3{
+    width: 100%;
+    color: white;
+    background-color: green;
+}
+
+.item-img-2{
+    position: relative;
+}
+
+.item-img-2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.item-img-2:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+.item-img-2 .overlay .btn-1{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.item-img-2 .overlay .btn-2{
+    width: 100%;
+    color: white;
+    background-color: rgb(59, 5, 5);
+    position: absolute;
+    bottom: 0;
+}
+
+.item-img-2 .btn-3{
+    width: 100%;
+    color: white;
+    background-color: green;
+}
+
+.item-img-3{
+    position: relative;
+}
+
+.item-img-3 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.item-img-3:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+.item-img-3 .overlay .btn-1{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.item-img-3 .overlay .btn-2{
+    width: 100%;
+    color: white;
+    background-color: rgb(59, 5, 5);
+    position: absolute;
+    bottom: 0;
+}
+
+.item-img-3 .btn-3{
+    width: 100%;
+    color: white;
+    background-color: green;
+}
+
+.item-img-4{
+    position: relative;
+}
+
+.item-img-4 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.item-img-4:hover .overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+.item-img-4 .overlay .btn-1{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.item-img-4 .overlay .btn-2{
+    width: 100%;
+    color: white;
+    background-color: rgb(59, 5, 5);
+    position: absolute;
+    bottom: 0;
+}
+
+.item-img-4 .btn-3{
+    width: 100%;
+    color: white;
+    background-color: green;
+}
+
+.section-custom-5{
+    background-color: #f6f2f2;
+}
+
+.column {
+    float: left;
+    width: 33.33% !important;
+    padding: 20px;
+}
+
+.column .btn-1{
+    width: 100%;
+    color: white;
+    background-color: green;
+}
+
+.column:hover .btn-1{
+    width: 100%;
+    color: white;
+    background-color: rgb(59, 5, 5);
+}
+
+.section-custom-6{
+    background-color: #f6f2f2;
+}
+
+.section-custom-7{
+    background-color: #2e0000;;
+}
+
+.item-img{
+    position: relative;
+}
+
+.item-img img{
+    display: block;
+    width: 100%;
+}
+
+.custom-overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgba(7, 7, 7, 0.7);
+    overflow: hidden;
+}
+.item-img:hover .custom-overlay{
+    bottom: 0;
+    height: 100%;
+}
+
+.item-img .custom-overlay .btn-1{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.section-custom-7 span .btn-1{
+    border: 1px solid green;
+    background-color: rgb(231, 97, 9);;
+
+}
+
+.section-custom-7 span .btn-2{
+    border: 1px solid green;
+    background-color: rgb(231, 97, 9);
+
+}
+
+.section-custom-9{
+    background: url("../Images/image-1.webp") no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.section-custom-9 .overlay-custom-2{
+    background-color: rgb(1, 1, 7,0.7) !important;
+    height: 80vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
